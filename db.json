@@ -16,54 +16,9 @@
       "id": 5
     },
     {
-      "nombre": "Esteban",
-      "precio": 200,
-      "id": 6
-    },
-    {
-      "nombre": "etcetera",
-      "precio": 32,
-      "id": 7
-    },
-    {
-      "nombre": "33",
-      "precio": 32,
-      "id": 8
-    },
-    {
-      "nombre": "Mariano Laje",
-      "precio": 22,
-      "id": 9
-    },
-    {
-      "nombre": "Absenta",
-      "precio": 22,
-      "id": 11
-    },
-    {
-      "nombre": "zzczxc",
-      "precio": 22,
-      "id": 12
-    },
-    {
-      "nombre": "Mariano Laje",
-      "precio": 21,
-      "id": 13
-    },
-    {
-      "nombre": "zzczxc",
-      "precio": 2,
-      "id": 14
-    },
-    {
-      "nombre": "asd",
-      "precio": 33,
-      "id": 18
-    },
-    {
-      "nombre": "mariano",
-      "precio": 13,
-      "id": 19
+      "nombre": "1KG Manzana - 1KG Banana - 500g Mandarina",
+      "precio": 400,
+      "id": 20
     }
   ]
 }

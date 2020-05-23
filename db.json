@@ -19,6 +19,16 @@
       "nombre": "1KG Manzana - 1KG Banana - 500g Mandarina",
       "precio": 400,
       "id": 20
+    },
+    {
+      "nombre": "Jugo de manzana",
+      "precio": 100,
+      "id": 21
+    },
+    {
+      "nombre": "Bolson de comida ",
+      "precio": 1000,
+      "id": 22
     }
   ]
 }

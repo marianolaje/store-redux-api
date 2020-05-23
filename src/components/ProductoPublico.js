@@ -1,18 +1,10 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-import Swal from 'sweetalert2'
-
-//redux
-import { useDispatch } from 'react-redux'
-import { borrarProductoAction } from '../actions/productoActions'
 
 const Producto = ({producto}) => {
 
     const {nombre, precio, id} = producto
 
-    const dispatch = useDispatch()
-
-    let textoWsp = `https://wa.me/15555555555?text=Quiero%20el%20numero%20${id}`
+    let textoWsp = `https://wa.me/5493513941443?text=Quiero%20el%20numero%20${id}%20-%20${nombre}%20-%20$${precio}`
 
     return (
         <tr>

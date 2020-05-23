@@ -1,7 +1,9 @@
 import React, {Fragment, useEffect} from 'react'
+import {Link} from 'react-router-dom'
 import {useSelector, useDispatch} from 'react-redux'
 import {obtenerProductosAction} from '../actions/productoActions'
 import Producto from './Producto'
+import bolsonesimg from '../bolsonesimg.png'
 
  const Productos = () => {
 
@@ -20,6 +22,16 @@ import Producto from './Producto'
 
      return(
          <Fragment>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-primary justify-content-between">
+                <div className="container">
+                    <div className="col-7">
+                        <h1><Link to={'/'} className="text-light">La Quinta Bolsones</Link></h1>
+                    </div>
+                    <div className="col-5">
+                        <Link to={'/'} className="text-light"><img src={bolsonesimg} className="img-fluid logoimg float-right"/></Link>
+                    </div>
+                </div>
+            </nav>
              <h2 className="text-center my-5">Listado de Productos</h2>
              {error ? <p className="font-weight-bold alert alert-danger text-center mt-4">Hubo un error</p> : null}
              {cargando ? <p className="text-center mt-4">Cargando...</p> : null}

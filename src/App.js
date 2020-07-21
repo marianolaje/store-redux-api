@@ -12,6 +12,7 @@ import store from './store'
 
 
 function App() {
+  //hola mundo
   return (
     <Router>
       <Provider store={store}>
